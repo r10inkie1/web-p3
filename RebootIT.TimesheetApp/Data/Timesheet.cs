@@ -8,6 +8,7 @@ namespace RebootIT.TimesheetApp.Data
 {
     public class Timesheet
     {
+        [Key]
         public int Id { get; set; }
         public int MinutesWorked { get; set; }
         [Required]
